@@ -59,33 +59,7 @@ A- Input Selection Templates: brokerSelection Template, companySelectionTemplate
 
 ## Translation
 A mixed approach of using a Middleware to translate messages text, and manual approach to translate Adaptive Cards and Choices.
-appsettings.json: TranslatorKey, Key1 in ADXArTranslator\Resource Management\Keys and Endpoints
+appsettings.json: TranslatorKey, Key1 in 
+
+ArTranslator\Resource Management\Keys and Endpoints
 \Translation\TranslationMiddleware.cs
-
-## Testing the bot
-
-- using the Emulator you can't test authentication for Reports, therefore you need to uncomment line 77 and comment the line 76 in DialogBot.cs
-- you can test using a DirectLine page https://mobileadx.azurewebsites.net/ this page allows you to test reading cookies and reading url for authentication
-- Debugging Directline, you can expose your localbot ngrok http 3978 -host-header="localhost:3978"
-connect the deployed botservice ADXTestingBot-Settings, Messaging Endpoint : http://localhost/webchatlocal/indexquery.html?ADXUserToken=0f0c69ac-be28-e911-80ee-005056ad6429
-
-## Deploy the bot to Azure
-
-I created a bitbucket repository: ADXbotServices
-git remote add origin https://ismail-innodev@bitbucket.org/ismail-innodev/adxbotservices.git
-
-locally (cmd):Directory D:\0.2-ubility\ChabotAzure\adxbotservices 
- git init
- git add *
- git commit -m "inital commit"
- git remote add origin https://ismail-innodev@bitbucket.org/ismail-innodev/adxbotservices.git
- git push -u origin master
-
-on Visual Studio 2017 (Directory ADXbotservices is configured to sync with bitbucket Repo)
-- changes stage
-- commit
-- sync /push
-
-on Azure Portal (Mahmoud account)
-adxbotservices AppService -> Deployment Center
-Connect to Bitbucket
