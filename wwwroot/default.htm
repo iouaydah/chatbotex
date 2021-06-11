@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ismail Ouaydah">
+
+    <title>ADX Chatbot</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="./codepen.css">
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script src="https://unpkg.com/simple-update-in/dist/simple-update-in.production.min.js"></script>
+
+</head>
+<body translate="no">
+<div class="floating-chat">
+    <i class="fa fa-comments" aria-hidden="true"></i>
+    <div class="chat">
+        <div class="header">
+            <span class="title"> ADX Chatbot</span>
+            <button>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div id="webchat" role="main"></div>
+
+    </div>
+</div>
+<script>
+    (async function () {
+
+        const store = window.WebChat.createStore(
+            {},
+            ({ dispatch }) => next => action => {
+            if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
+                dispatch({
+                    type: 'WEB_CHAT/SEND_EVENT',
+                    payload: {
+                        name: 'webchat/join',
+                        value: { language: window.navigator.language }
+                    }
+                });
+            }
+            if (action.type === 'DIRECT_LINE/POST_ACTIVITY') {
+                action = window.simpleUpdateIn(action, ['payload', 'activity', 'channelData', 'auth'], () => "c65ef40c-9a11-e911-80eb-005056ad6429");
+		        action = window.simpleUpdateIn(action, ['payload', 'activity', 'channelData', 'Channel'], () => "Portal");
+            }
+
+            return next(action);
+            }
+        );
+
+        window.WebChat.renderWebChat({
+            directLine: window.WebChat.createDirectLine({
+                token: 'Jauqch1zS8E.mYtsIqIzOcD9RJ6yV0t1yTxXmUOuHMe9DJbI8ss_h0c'
+            }),
+            styleOptions: {
+                rootHeight: '550px',
+                rootWidth: '96%',
+                bubbleBackground: 'rgba(0, 0, 255, .1)',
+                bubbleFromUserBackground: 'rgba(0, 255, 0, .1)',
+                botAvatarInitials: '',
+		        botAvatarImage:'./avatar-Circle.png',
+                userAvatarInitials: 'User'
+            },
+            store
+        }, document.getElementById('webchat'));
+
+        store.dispatch({
+            type: 'WEB_CHAT/SET_SEND_BOX',
+            payload: { text: 'Hello' }
+        });
+
+        document.querySelector('#webchat > *').focus();
+    })().catch(err => console.error(err));
+</script>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='./codepen.js'></script>
+</body>
+</html>

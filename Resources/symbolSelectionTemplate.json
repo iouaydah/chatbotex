@@ -1,0 +1,29 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Please select Company Name"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id": "SymbolSelected",
+            "value": "1",
+            "choices": [
+                {
+                    "$data": "{items}",
+                    "title": "{EngName}",
+                    "value": "{EQSYMBOL}"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit"
+        }
+    ]
+}

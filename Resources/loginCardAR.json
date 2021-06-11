@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "text": " [الدخول](https://www.adx.ae/English/pages/smartpass/login.aspx)",
+      "wrap": true
+    }
+  ]
+}

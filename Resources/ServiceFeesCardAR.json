@@ -1,0 +1,203 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "rtl": true,
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "تكلفة خدمة",
+          "size": "Medium",
+          "wrap": true,
+          "weight": "Bolder",
+          "horizontalAlignment": "Right"
+        }
+      ],
+      "style": "good",
+      "bleed": true
+    },
+    {
+      "$data": "{Data}",
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "{ClosingDate}",
+                  "horizontalAlignment": "Left"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "90px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "تاريخ الاغلاق (dd/mm/yyyy)",
+                  "wrap": true,
+                  "horizontalAlignment": "Right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "{qty}",
+                  "horizontalAlignment": "Left"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "90px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "عدد الاسهم",
+                  "wrap": true,
+                  "horizontalAlignment": "Right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "{ClosingPrice}",
+                  "horizontalAlignment": "Left"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "90px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "سعر الاغلاق - د.أ ",
+                  "wrap": true,
+                  "horizontalAlignment": "Right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "{Fees}",
+                  "horizontalAlignment": "Left",
+                  "color": "Dark"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "90px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "سعر الخدمة- د.أ",
+                  "horizontalAlignment": "Right",
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "{VAT}",
+                  "horizontalAlignment": "Left"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "90px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "ضريبة القيمة المضافة - د.أ",
+                  "wrap": true,
+                  "horizontalAlignment": "Right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "{Total}",
+                  "horizontalAlignment": "Left",
+                  "color": "Dark"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "90px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "المجموع - د.أ",
+                  "weight": "Bolder",
+                  "horizontalAlignment": "Right",
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "style": "good",
+      "bleed": true
+    }
+  ]
+}

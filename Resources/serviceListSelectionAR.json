@@ -1,0 +1,31 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "الرجاء اختيار الشركة الوسيطة",
+        "horizontalAlignment": "Right"
+      },
+      {
+        "type": "Input.ChoiceSet",
+        "id": "ServiceSelected",
+        "placeholder": "الرجاء اختيار الشركة الوسيطة",
+        "value": "1",
+        "choices": [
+          {
+            "$data": "{Data}",
+            "title": "{NameArb}",
+            "value": "{NameArb},{ID}"
+          }
+        ]
+      }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "ارسال"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "التقارير والرسوم البيانية",
+      "horizontalAlignment": "Right"
+    },
+    {
+      "type": "TextBlock",
+      "text": "اضغط على التقرير الذي تود رؤيته",
+      "wrap": true,
+      "horizontalAlignment": "Right"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "[تقرير نشاط الوسطاء](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/BrokerActivityReport_AR.rdl)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[تقرير الشركات الأكثر تداولا](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/MarketMostActive_AR.rdl)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[أكبر المساهمين كما في اخر تاريخ تداول](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/TopShareholders_AR.rdl)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[ملخص التداولات وفقا للجنسية](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/TradeSummaryByCitz_AR.rdl)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[نسب تملك المواطنين و الأجانب](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/DailyHoldings_AR.rdl)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[تقرير الأوراق المالية الحرة](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/FreeFloat_AR.rdl)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[تقرير التداول بالهامش](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/Marginreport_AR.rdl)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        },
+        {
+          "type": "TextBlock",
+          "text": "[المزيد من التقارير](https://www.adx.ae/Arabic/pages/data/reportandcharts/default.aspx)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Right"
+        }
+      ]
+    }
+  ]
+}

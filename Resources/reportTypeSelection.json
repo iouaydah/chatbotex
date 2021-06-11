@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Please Select Transaction Type"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Input.ChoiceSet",
+          "id": "ReportTypeSelected",
+          "placeholder": "Placeholder text",
+          "value": "1",
+          "choices": [
+            {
+              "title": "Registry Transfer: from Broker to Registry Account",
+              "value": "0"
+            },
+            {
+              "title": "Stock Transfer: from Registry Account to Broker",
+              "value": "1"
+            }
+          ],
+          "style": "expanded",
+          "wrap": true
+        }
+      ],
+      "style": "good",
+      "bleed": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}

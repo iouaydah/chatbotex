@@ -1,0 +1,34 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Please select the Pledgee Name"
+        },
+      {
+        "type": "Input.ChoiceSet",
+        "id": "PledgeeSelected",
+        "placeholder": "All",
+        "value": "1",
+        "choices": [
+          {
+            "title": "All",
+            "value": "All"
+          },
+          {
+            "$data": "{Pledgees}",
+            "title": "{ValueEnglish}",
+            "value": "{Key}"
+          }
+        ]
+      }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit"
+        }
+    ]
+}

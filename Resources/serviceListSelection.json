@@ -1,0 +1,30 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Please select a Service"
+        },
+      {
+        "type": "Input.ChoiceSet",
+        "id": "ServiceSelected",
+        "placeholder": "Please select a Service",
+        "value": "1",
+        "choices": [
+          {
+            "$data": "{Data}",
+            "title": "{NameEng}",
+            "value": "{NameEng},{ID}"
+          }
+        ]
+      }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit"
+        }
+    ]
+}

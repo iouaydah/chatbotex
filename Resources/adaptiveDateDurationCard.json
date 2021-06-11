@@ -1,0 +1,22 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "Input.Date",
+            "id": "feeddate",
+            "placeholder": "Enter a date",
+            "$data": "{items}",
+            "min": "{mindate}",
+            "max": "{maxdate}",
+            "value": "{ maxdate }"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit"
+        }
+    ]
+}

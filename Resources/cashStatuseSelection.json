@@ -1,0 +1,33 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Please select status"
+    },
+    {
+        "type": "Input.ChoiceSet",
+        "id": "StatusSelected",
+        "value": "1",
+        "choices": [
+          {
+            "title": "All",
+            "value": "All"
+          },
+          {
+            "$data": "{Status}",
+            "title": "{ValueEnglish}",
+            "value": "{Key}"
+          }
+        ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}

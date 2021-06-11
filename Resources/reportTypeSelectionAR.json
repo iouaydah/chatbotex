@@ -1,0 +1,43 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "الرجاء اختيار نوع التحويل",
+      "horizontalAlignment": "Right"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Input.ChoiceSet",
+          "id": "ReportTypeSelected",
+          "placeholder": "Placeholder text",
+          "value": "1",
+          "choices": [
+            {
+              "title": "تحويل الاسهم من الوسيط الى المقاصة ",
+              "value": "0"
+            },
+            {
+              "title": "تحويل الاسهم من المقاصة الى الوسيط",
+              "value": "1"
+            }
+          ],
+          "style": "expanded",
+          "wrap": true
+        }
+      ],
+      "style": "good",
+      "bleed": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}

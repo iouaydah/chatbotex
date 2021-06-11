@@ -1,0 +1,676 @@
+﻿{
+    "items": [
+        {
+            "EQSYMBOL": "FOODCO",
+            "ArabicName": "فودكوالقابضه",
+            "EngName": "FOODCO Holding Company",
+            "DSymbol": "FOODCO"
+        },
+        {
+            "EQSYMBOL": "ADNICCB0619",
+            "ArabicName": "سندات شركة أبوظبي الوطنية للتأمين",
+            "EngName": "Abu Dhabi National Insurance Company Bond",
+            "DSymbol": "ADNICCB0619"
+        },
+        {
+            "EQSYMBOL": "AWNIC",
+            "ArabicName": "شركة الوثبة الوطنية للتأمين",
+            "EngName": "Al Wathba National Insurance Co.",
+            "DSymbol": "AWNIC"
+        },
+        {
+            "EQSYMBOL": "NBAD",
+            "ArabicName": "بنك أبوظبي الأول",
+            "EngName": "First Abu Dhabi Bank",
+            "DSymbol": "FAB"
+        },
+        {
+            "EQSYMBOL": "NCTH",
+            "ArabicName": "المؤسسة الوطنية للسياحة و الفنادق",
+            "EngName": "National Corporation for Tourism & Hotels",
+            "DSymbol": "NCTH"
+        },
+        {
+            "EQSYMBOL": "ADIB",
+            "ArabicName": "مصرف أبوظبي الا سلا مي",
+            "EngName": "Abu Dhabi Islamic Bank",
+            "DSymbol": "ADIB"
+        },
+        {
+            "EQSYMBOL": "ADNH",
+            "ArabicName": "أبوظبي الوطنية للفنادق",
+            "EngName": "Abu Dhabi National Hotels Co.",
+            "DSymbol": "ADNH"
+        },
+        {
+            "EQSYMBOL": "NMDC",
+            "ArabicName": "شركة الجرافات البحرية الوطنية",
+            "EngName": "National Marine Dredging Co.",
+            "DSymbol": "NMDC"
+        },
+        {
+            "EQSYMBOL": "OILC",
+            "ArabicName": "الواحة كابيتال",
+            "EngName": "Waha Capital Company",
+            "DSymbol": "WAHA"
+        },
+        {
+            "EQSYMBOL": "BILDCO",
+            "ArabicName": "شركة أبوظبي الوطنية لمواد البناء",
+            "EngName": "Abu Dhabi National Co. for Building Materials",
+            "DSymbol": "BILDCO"
+        },
+        {
+            "EQSYMBOL": "AKIC",
+            "ArabicName": "شركة الخزنة للتأمين",
+            "EngName": "Al Khazna Insurance Co.",
+            "DSymbol": "AKIC"
+        },
+        {
+            "EQSYMBOL": "EIC",
+            "ArabicName": "شركة الامارات للتأمين",
+            "EngName": "Emirates Insurance Co.",
+            "DSymbol": "EIC"
+        },
+        {
+            "EQSYMBOL": "AAAIC",
+            "ArabicName": "شركة العين الأهلية للتأمين",
+            "EngName": "Al Ain Alahlia Insurance Co.",
+            "DSymbol": "ALAIN"
+        },
+        {
+            "EQSYMBOL": "ADGB",
+            "ArabicName": "سندات حكومة أبوظبي",
+            "EngName": "Abu Dhabi Government Bonds 2019 - 6.750%",
+            "DSymbol": "ADGB"
+        },
+        {
+            "EQSYMBOL": "ADCB",
+            "ArabicName": "بنك أبوظبي التجاري",
+            "EngName": "Abu Dhabi Commercial Bank",
+            "DSymbol": "ADCB"
+        },
+        {
+            "EQSYMBOL": "QTEL",
+            "ArabicName": "أريد",
+            "EngName": "OOREDOO",
+            "DSymbol": "ORDS"
+        },
+        {
+            "EQSYMBOL": "UCC",
+            "ArabicName": "شركة اسمنت الاتحاد",
+            "EngName": "Union Cement Co.",
+            "DSymbol": "UCC"
+        },
+        {
+            "EQSYMBOL": "ETISALAT",
+            "ArabicName": "شركة مجموعة الامارات للاتصالات(مجموعةاتصالات)ش م ع",
+            "EngName": "Emirates Telecom. Group Company (Etisalat Group) PJSC",
+            "DSymbol": "ETISALAT"
+        },
+        {
+            "EQSYMBOL": "FGB",
+            "ArabicName": "بنك الخليج الأول",
+            "EngName": "First Gulf Bank",
+            "DSymbol": "FGB"
+        },
+        {
+            "EQSYMBOL": "CBI",
+            "ArabicName": "البنك التجاري الدولي",
+            "EngName": "Commercial Bank International",
+            "DSymbol": "CBI"
+        },
+        {
+            "EQSYMBOL": "GCEM",
+            "ArabicName": "شركة اسمنت الخليج",
+            "EngName": "Gulf Cement Co.",
+            "DSymbol": "GCEM"
+        },
+        {
+            "EQSYMBOL": "RAPCO",
+            "ArabicName": "شركة رأس الخيمة للدواجن",
+            "EngName": "Ras Al Khaimah Poultry & Feeding Co.",
+            "DSymbol": "RAPCO"
+        },
+        {
+            "EQSYMBOL": "RAKWCT",
+            "ArabicName": "شركة رأس الخيمة للاسمنت الأبيض والمواد الانشائية",
+            "EngName": "RAK Co. for White Cement & Construction Materials",
+            "DSymbol": "RAKWCT"
+        },
+        {
+            "EQSYMBOL": "JULPHAR",
+            "ArabicName": "شركة الخليج للصناعات الدوائية",
+            "EngName": "Gulf Pharmaceutical Industries",
+            "DSymbol": "JULPHAR"
+        },
+        {
+            "EQSYMBOL": "ADSB",
+            "ArabicName": "شركة أبوظبي لبناء السفن",
+            "EngName": "Abu Dhabi Ship Building Co.",
+            "DSymbol": "ADSB"
+        },
+        {
+            "EQSYMBOL": "UNB",
+            "ArabicName": "بنك الاتحاد الوطني",
+            "EngName": "Union National Bank",
+            "DSymbol": "UNB"
+        },
+        {
+            "EQSYMBOL": "SUDATEL",
+            "ArabicName": "شركة مجموعة سوداتل للاتصالا ت المحدودة- سوداتل",
+            "EngName": "Sudatel Telecommunications Group Company Limited",
+            "DSymbol": "SUDATEL"
+        },
+        {
+            "EQSYMBOL": "UIC",
+            "ArabicName": "(شركةالتأمين فيدلتي المتحدة (ش .م.ع",
+            "EngName": "United Fidelity Insurance Company (P.S.C)",
+            "DSymbol": "FIDELITYUNITED"
+        },
+        {
+            "EQSYMBOL": "ADNIC",
+            "ArabicName": "شركة ابوظبي الوطنية للتأمين",
+            "EngName": "Abu Dhabi National Insurance Company",
+            "DSymbol": "ADNIC"
+        },
+        {
+            "EQSYMBOL": "RAKCEC",
+            "ArabicName": "شركة سيراميك رأس الخيمة",
+            "EngName": "RAK Ceramics PJSC",
+            "DSymbol": "RAKCEC"
+        },
+        {
+            "EQSYMBOL": "BOS",
+            "ArabicName": "بنك الشارقة",
+            "EngName": "Bank of Sharjah",
+            "DSymbol": "BOS"
+        },
+        {
+            "EQSYMBOL": "RAKCC",
+            "ArabicName": "شركة أسمنت رأس الخيمة",
+            "EngName": "Ras Al Khaimah Cement Company",
+            "DSymbol": "RAKCC"
+        },
+        {
+            "EQSYMBOL": "UNION",
+            "ArabicName": "شركة الاتحاد للتامين",
+            "EngName": "Union Insurance Company",
+            "DSymbol": "UNION"
+        },
+        {
+            "EQSYMBOL": "NBS",
+            "ArabicName": "مصرف الشارقةالاسلامي",
+            "EngName": "Sharjah Islamic Bank",
+            "DSymbol": "SIB"
+        },
+        {
+            "EQSYMBOL": "CIB",
+            "ArabicName": "البنك التجاري الدولي - مصر",
+            "EngName": "Commercial International Bank - Egypt",
+            "DSymbol": "CIB"
+        },
+        {
+            "EQSYMBOL": "ABNIC",
+            "ArabicName": "شركة البحيرة الوطنية للتأمين",
+            "EngName": "Al Buhaira National Insurance Company",
+            "DSymbol": "ABNIC"
+        },
+        {
+            "EQSYMBOL": "UAB",
+            "ArabicName": "البنك العربي المتحد",
+            "EngName": "United Arab Bank",
+            "DSymbol": "UAB"
+        },
+        {
+            "EQSYMBOL": "INVESTB",
+            "ArabicName": "بنك الأ ستثمار",
+            "EngName": "Invest Bank",
+            "DSymbol": "INVESTB"
+        },
+        {
+            "EQSYMBOL": "ALDAR",
+            "ArabicName": "الدار العقارية",
+            "EngName": "Al Dar Properties",
+            "DSymbol": "ALDAR"
+        },
+        {
+            "EQSYMBOL": "TKFL",
+            "ArabicName": "شركة أبوظبي الوطنية للتكافل",
+            "EngName": "Abu Dhabi National Takaful Co.",
+            "DSymbol": "TKFL"
+        },
+        {
+            "EQSYMBOL": "AGTHIA",
+            "ArabicName": "مجموعة أغذية",
+            "EngName": "AGTHIA Group",
+            "DSymbol": "AGTHIA"
+        },
+        {
+            "EQSYMBOL": "NBQ",
+            "ArabicName": "بنك ام القيوين الوطني",
+            "EngName": "National Bank of Umm Al Qaiwain",
+            "DSymbol": "NBQ"
+        },
+        {
+            "EQSYMBOL": "RAKNIC",
+            "ArabicName": "شركة رأس الخيمة الوطنية للتأمين",
+            "EngName": "Ras Alkhaima National Insurance Co.",
+            "DSymbol": "RAKNIC"
+        },
+        {
+            "EQSYMBOL": "ALLIANCE",
+            "ArabicName": "شركة اللاينس للتأمين",
+            "EngName": "Alliance Insurance Co.",
+            "DSymbol": "ALLIANCE"
+        },
+        {
+            "EQSYMBOL": "FH",
+            "ArabicName": "دار التمويل",
+            "EngName": "Finance House",
+            "DSymbol": "FH"
+        },
+        {
+            "EQSYMBOL": "QCEM",
+            "ArabicName": "شركةام القوين للاستثمارات العامه",
+            "EngName": "Umm Al Qaiwain General Investment Co. P.S.C",
+            "DSymbol": "QIC"
+        },
+        {
+            "EQSYMBOL": "FCI",
+            "ArabicName": "صناعات اسمنت الفجيرة",
+            "EngName": "Fujairah Cement Industries",
+            "DSymbol": "FCI"
+        },
+        {
+            "EQSYMBOL": "RAKBANK",
+            "ArabicName": "بنك رأس الخيمه الوطني",
+            "EngName": "The National Bank of Ras Al Khaimah",
+            "DSymbol": "RAKBANK"
+        },
+        {
+            "EQSYMBOL": "SICO",
+            "ArabicName": "شركة الشارقة للتأمين",
+            "EngName": "Sharjah Insurance Company",
+            "DSymbol": "SICO"
+        },
+        {
+            "EQSYMBOL": "ASMAK",
+            "ArabicName": "الشركة العالمية القابضة ش م ع",
+            "EngName": "International Holdings Company PJSC",
+            "DSymbol": "IHC"
+        },
+        {
+            "EQSYMBOL": "NBF",
+            "ArabicName": "بنك الفجيرة الوطني",
+            "EngName": "National Bank of Fujairah",
+            "DSymbol": "NBF"
+        },
+        {
+            "EQSYMBOL": "DRIVE",
+            "ArabicName": "شركة الامارات لتعليم قيادة السيارات",
+            "EngName": "Emirates Driving Company",
+            "DSymbol": "DRIVE"
+        },
+        {
+            "EQSYMBOL": "RAKPROP",
+            "ArabicName": "رأس الخيمة العقارية",
+            "EngName": "RAK Properties",
+            "DSymbol": "RAKPROP"
+        },
+        {
+            "EQSYMBOL": "AABAR",
+            "ArabicName": "شركة ابار للاستثمار البترولي",
+            "EngName": "Aabar Petroleum Investment Company",
+            "DSymbol": "AABAR"
+        },
+        {
+            "EQSYMBOL": "DANA",
+            "ArabicName": "دانة غاز",
+            "EngName": "DANA GAS PJSC",
+            "DSymbol": "DANA"
+        },
+        {
+            "EQSYMBOL": "SOROUH",
+            "ArabicName": "شركة صروح العقارية",
+            "EngName": "SOROUH Real Estate Company",
+            "DSymbol": "SOROUH"
+        },
+        {
+            "EQSYMBOL": "SCIDC",
+            "ArabicName": "شركة الشارقة للأ سمنت و التنمية الصناعية",
+            "EngName": "Sharjah Cement and Industrial Development Co.",
+            "DSymbol": "SCIDC"
+        },
+        {
+            "EQSYMBOL": "PALTEL",
+            "ArabicName": "الاتصالا ت الفلسطينية",
+            "EngName": "Palestine Telecom",
+            "DSymbol": "PALTEL"
+        },
+        {
+            "EQSYMBOL": "GMPC",
+            "ArabicName": "شركة الخليج للمشاريع الطبية",
+            "EngName": "Gulf Medical Projects Company",
+            "DSymbol": "GMPC"
+        },
+        {
+            "EQSYMBOL": "TAQA",
+            "ArabicName": "شركة ابوظبي الوطنية للطاقة",
+            "EngName": "Abu Dhabi National Energy Company",
+            "DSymbol": "TAQA"
+        },
+        {
+            "EQSYMBOL": "NBADCN0316",
+            "ArabicName": "سندات بنك ابوظبي الوطني",
+            "EngName": "NBAD Convertible Notes",
+            "DSymbol": "NBADCN0316"
+        },
+        {
+            "EQSYMBOL": "BOSCB0308",
+            "ArabicName": "سندات بنك الشارقة",
+            "EngName": "Bank of Shatjah Bonds",
+            "DSymbol": "BOSCB0308"
+        },
+        {
+            "EQSYMBOL": "ARKAN",
+            "ArabicName": "شركة اركان لمواد البناء",
+            "EngName": "Arkan Building Materials Company",
+            "DSymbol": "ARKAN"
+        },
+        {
+            "EQSYMBOL": "OEIHC",
+            "ArabicName": "شركة عمان والامارات للاستثمار القابضة",
+            "EngName": "Oman & Emirates Investment Holding Co",
+            "DSymbol": "OEIHC"
+        },
+        {
+            "EQSYMBOL": "FBICO",
+            "ArabicName": "شركه الفجيرة لصناعات البناء ش.م.ع",
+            "EngName": "Fujairah Building Industries P.S.C",
+            "DSymbol": "FBI"
+        },
+        {
+            "EQSYMBOL": "FTC",
+            "ArabicName": "مركز الفجيرة التجاري",
+            "EngName": "Fujairah Trade Center",
+            "DSymbol": "FTC"
+        },
+        {
+            "EQSYMBOL": "AFNIC",
+            "ArabicName": "شركة الفجيرة الوطنية للتأمين",
+            "EngName": "Al Fujairah National Insurance Company",
+            "DSymbol": "AFNIC"
+        },
+        {
+            "EQSYMBOL": "METHAQ",
+            "ArabicName": "شركة ميثاق للتأمين التكافلي",
+            "EngName": "Methaq Takaful Insurance Compnay",
+            "DSymbol": "METHAQ"
+        },
+        {
+            "EQSYMBOL": "GCIC",
+            "ArabicName": "أكسا الهلال الاخضر للتأمين ش م ع",
+            "EngName": "AXA Green Crescent Insurance Company PJSC",
+            "DSymbol": "AXAGCIC"
+        },
+        {
+            "EQSYMBOL": "GLS",
+            "ArabicName": "الخليج الاستثمارية",
+            "EngName": "AL KHALEEJ Investment",
+            "DSymbol": "KICO"
+        },
+        {
+            "EQSYMBOL": "1UAE",
+            "ArabicName": "صندوق بنك أبوظبي الوطني \"ون شير\" داو جونز",
+            "EngName": "NBAD OneShare Dow Jones UAE 25 ETF",
+            "DSymbol": "1UAE"
+        },
+        {
+            "EQSYMBOL": "IH",
+            "ArabicName": "دار التأمين ش م ع",
+            "EngName": "Insurance House",
+            "DSymbol": "IH"
+        },
+        {
+            "EQSYMBOL": "OPTIMAL",
+            "ArabicName": "شركه المحفظة المثلى للاستشارات الماليه ش م خ",
+            "EngName": "Optimal Portfolio Financial Advisors",
+            "DSymbol": "OPTIMAL"
+        },
+        {
+            "EQSYMBOL": "TASWEEK",
+            "ArabicName": "تسويق للتطوير والتسويق العقاري ش م خ",
+            "EngName": "Tasweek Real Estate Develop. & Marketing",
+            "DSymbol": "TASWEEK"
+        },
+        {
+            "EQSYMBOL": "ESHRAQ",
+            "ArabicName": "شركة اشراق للاستثمار",
+            "EngName": "ESHRAQ INVESTMENTS P.J.S.C",
+            "DSymbol": "ESHRAQ"
+        },
+        {
+            "EQSYMBOL": "WATANIA",
+            "ArabicName": "شركه الوطنيه للتكافل",
+            "EngName": "National Takaful Company (Watania)",
+            "DSymbol": "WATANIA"
+        },
+        {
+            "EQSYMBOL": "EC",
+            "ArabicName": "شركة اتحاد كابيتال ش.م.خ",
+            "EngName": "ETIHAD Capital PJSC",
+            "DSymbol": "EC"
+        },
+        {
+            "EQSYMBOL": "ESRI14",
+            "ArabicName": "2014حقوق اكتتاب اشراق العقارية",
+            "EngName": "ESHRAQ Right Issue 2014",
+            "DSymbol": "ESRI14"
+        },
+        {
+            "EQSYMBOL": "ALBENAA",
+            "ArabicName": "شركة البناء للا ستثمار العقاري",
+            "EngName": "Al benaa Real Estate Investment Company",
+            "DSymbol": "ALBENAA"
+        },
+        {
+            "EQSYMBOL": "TNI",
+            "ArabicName": "المستثمر الوطني ش م خ",
+            "EngName": "The National Investor PRJSC",
+            "DSymbol": "TNI"
+        },
+        {
+            "EQSYMBOL": "MANAZEL",
+            "ArabicName": "شركة منازل ش م خ",
+            "EngName": "Manazel PJSC",
+            "DSymbol": "MANAZEL"
+        },
+        {
+            "EQSYMBOL": "INJAZ",
+            "ArabicName": "المتكاملة كابيتال ش م خ",
+            "EngName": "Integrated Capital PJSC",
+            "DSymbol": "INJAZ"
+        },
+        {
+            "EQSYMBOL": "ADIC",
+            "ArabicName": "شركة الظفرة للتأمين",
+            "EngName": "Al Dhafra Insurance Co.",
+            "DSymbol": "DHAFRA"
+        },
+        {
+            "EQSYMBOL": "ADA",
+            "ArabicName": "شركة طيران أبوظبي",
+            "EngName": "Abu Dhabi Aviation Co.",
+            "DSymbol": "ADAVIATION"
+        },
+        {
+            "EQSYMBOL": "ADIBRI15",
+            "ArabicName": "2015 حقوق اكتتاب مصرف أبو ظبي الاسلا مي",
+            "EngName": "ADIB Right Issue 2015",
+            "DSymbol": "ADIBRI15"
+        },
+        {
+            "EQSYMBOL": "SG",
+            "ArabicName": "مجموعة الشارقة",
+            "EngName": "Sharjah Group",
+            "DSymbol": "SG"
+        },
+        {
+            "EQSYMBOL": "GC",
+            "ArabicName": "السيراميك العامه",
+            "EngName": "General Ceramics Company",
+            "DSymbol": "GC"
+        },
+        {
+            "EQSYMBOL": "UICRI17",
+            "ArabicName": "UIC  حق اكتتاب",
+            "EngName": "UIC Right Issue Shares 2017",
+            "DSymbol": "UICRI17"
+        },
+        {
+            "EQSYMBOL": "P010",
+            "ArabicName": "انفست ايه دي لادارة الاصول ش م خ",
+            "EngName": "Invest AD Asset Management PJSC",
+            "DSymbol": "P010"
+        },
+        {
+            "EQSYMBOL": "P011",
+            "ArabicName": "توطين للاستثمار البشري ش م خ",
+            "EngName": "Tawteen Human Investment Company PJS",
+            "DSymbol": "P011"
+        },
+        {
+            "EQSYMBOL": "P012",
+            "ArabicName": "ريم التمويل ش م خ",
+            "EngName": "Reem Finance PJSC",
+            "DSymbol": "P012"
+        },
+        {
+            "EQSYMBOL": "P013",
+            "ArabicName": "رويال كابيتال ش م خ",
+            "EngName": "Royal Capital PJSC",
+            "DSymbol": "P013"
+        },
+        {
+            "EQSYMBOL": "ALQUDRA",
+            "ArabicName": "القدرة القابضة",
+            "EngName": "Al Qudra Holding",
+            "DSymbol": "ALQUDRA"
+        },
+        {
+            "EQSYMBOL": "ADNOCDIST",
+            "ArabicName": "شركة بترول أبوظبي الوطنية للتوزيع",
+            "EngName": "Abu Dhabi National Oil Company For Distribution",
+            "DSymbol": "ADNOCDIST"
+        },
+        {
+            "EQSYMBOL": "UABRI18",
+            "ArabicName": "حقوق اكتتاب البنك العربي المتحد",
+            "EngName": "UAB Right Issue",
+            "DSymbol": "UABRI18"
+        },
+        {
+            "EQSYMBOL": "MVFN5Y0423",
+            "ArabicName": "سندات حكومة جمهورية المالديف",
+            "EngName": "Government of the Republic of Maldives",
+            "DSymbol": "MVFN5Y0423"
+        },
+        {
+            "EQSYMBOL": "P017",
+            "ArabicName": "شركه مباني الا مارات ش م خ",
+            "EngName": "Emirates Buildings Company PJS",
+            "DSymbol": "P017"
+        },
+        {
+            "EQSYMBOL": "P014",
+            "ArabicName": "شركه الحواس للأ طعمة ش م خ",
+            "EngName": "Senses Gourmet Food Company PSC",
+            "DSymbol": ""
+        },
+        {
+            "EQSYMBOL": "P015",
+            "ArabicName": "أيه بي جيه للصناعات ش م خ",
+            "EngName": "ABJ Industries PJSC",
+            "DSymbol": ""
+        },
+        {
+            "EQSYMBOL": "P016",
+            "ArabicName": "شركة الخليج للتمويل ش م خ",
+            "EngName": "Gulf Finance Corporation PJSC",
+            "DSymbol": ""
+        },
+        {
+            "EQSYMBOL": "WAZ",
+            "ArabicName": "شركه واحة الزاوية القابضة ش م خ",
+            "EngName": "Wahat Al Zaweya Holding PrJSC",
+            "DSymbol": "WAZ"
+        },
+        {
+            "EQSYMBOL": "ADIBRI18",
+            "ArabicName": "2018 حقوق اكتتاب مصرف أبوظبي الا سلا مي",
+            "EngName": "ADIB Right Issue Shares 2018",
+            "DSymbol": "ADIBRI18"
+        },
+        {
+            "EQSYMBOL": "REEM",
+            "ArabicName": "شركة ريم للاستثمار ش م خ",
+            "EngName": "REEM INVESTMENTS PrJSC",
+            "DSymbol": "REEM"
+        },
+        {
+            "EQSYMBOL": "XSALDARS0925",
+            "ArabicName": "صكوك الدار المحدودة",
+            "EngName": "ALDAR SUKUK LTD.",
+            "DSymbol": "ALDARSUKUK2025"
+        },
+        {
+            "EQSYMBOL": "XSSENAAT1225",
+            "ArabicName": "صكوك صناعات المحدودة",
+            "EngName": "SENAAT Sukuk Limited",
+            "DSymbol": "XSSENAAT1225"
+        },
+        {
+            "EQSYMBOL": "P019",
+            "ArabicName": "سواعد القابضة شركة مساهمة خاصة",
+            "EngName": "SAWAEED HOLDING Private Joint Stock Co",
+            "DSymbol": "P019"
+        },
+        {
+            "EQSYMBOL": "ADNIC2",
+            "ArabicName": "2 - أدنك الناتجة عن تحوبل السندات",
+            "EngName": "ADNIC Converted Shares 2",
+            "DSymbol": "ADNIC2"
+        },
+        {
+            "EQSYMBOL": "XSESICS0724",
+            "ArabicName": "ايسيك صكوك المحدودة",
+            "EngName": "ESIC SUKUK LTD",
+            "DSymbol": "XSESICS0724"
+        },
+        {
+            "EQSYMBOL": "XSADGMTN0924",
+            "ArabicName": "سندات امارة أبوظبي متوسطة الأجل العالمية",
+            "EngName": "Emirate of Abu Dhabi  Global Medium Term Note Programme",
+            "DSymbol": "XSADGMTN0924"
+        },
+        {
+            "EQSYMBOL": "XSADGMTN0929",
+            "ArabicName": "سندات امارة أبوظبي متوسطة الأ جل العالمية",
+            "EngName": "Emirate of Abu Dhabi  Global Medium Term Note Programme",
+            "DSymbol": "XSADGMTN0929"
+        },
+        {
+            "EQSYMBOL": "XSADGMTN0949",
+            "ArabicName": "سندات امارة أبوظبي متوسطة الأ جل العالمية",
+            "EngName": "Emirate of Abu Dhabi  Global Medium Term Note Programme",
+            "DSymbol": "XSADGMTN0949"
+        },
+        {
+            "EQSYMBOL": "XSALDARS1029",
+            "ArabicName": "الدار صكوك (2) المحدودة",
+            "EngName": "ALDAR SUKUK (NO.2) LTD",
+            "DSymbol": "XSALDARS1029"
+        }
+    ]
+}

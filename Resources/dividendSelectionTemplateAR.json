@@ -1,0 +1,164 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "الرجاء انتقاء الخيارات",
+      "color": "Accent",
+      "size": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "اسم الشركة:",
+              "weight": "Bolder"
+            },
+            {
+              "type": "Input.ChoiceSet",
+              "id": "SymbolSelected",
+              "placeholder": "الرجاء اختيار اسم الشركة",
+              "value": "1",
+              "choices": [
+                {
+                  "$data": "{Symbols}",
+                  "title": "{ValueEnglish}",
+                  "value": "{Key}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "style": "emphasis",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "اختر النوع",
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "ActionSet",
+                      "actions": [
+                        {
+                          "type": "Action.ToggleVisibility",
+                          "title": "حصة من الاسهم",
+                          "targetElements": [
+                            {
+                              "elementId": "sharemessagetext",
+                              "isVisible": true
+                            },
+                            {
+                              "elementId": "messagetext",
+                              "isVisible": false
+                            },
+                            {
+                              "elementId": "StatusSelected",
+                              "isVisible": false
+                            }
+                          ],
+                          "style": "positive"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ActionSet",
+                      "actions": [
+                        {
+                          "type": "Action.ToggleVisibility",
+                          "title": "حصة نقدية",
+                          "targetElements": [
+                            {
+                              "elementId": "sharemessagetext",
+                              "isVisible": false
+                            },
+                            {
+                              "elementId": "messagetext",
+                              "isVisible": true
+                            },
+                            {
+                              "elementId": "StatusSelected",
+                              "isVisible": true
+                            }
+                          ],
+                          "style": "positive"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "لقد اخترت حصة نقدية، الرجاء اختيار الحالة:",
+              "id": "messagetext",
+              "wrap": true,
+              "isVisible": false
+            },
+            {
+              "type": "TextBlock",
+              "text": "لقد اخترت حصة اسهم، الرجاء ضغط ارسال للحصول على التقرير",
+              "id": "sharemessagetext",
+              "wrap": true,
+              "isVisible": false
+            },
+            {
+              "type": "Input.ChoiceSet",
+              "id": "StatusSelected",
+              "value": "1",
+              "choices": [
+                {
+                  "$data": "{Status}",
+                  "title": "{ValueEnglish}",
+                  "value": "{Key}"
+                }
+              ],
+              "isVisible": false
+            }
+          ]
+        }
+      ],
+      "id": "StatusCol"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "ارسال"
+    }
+  ]
+}

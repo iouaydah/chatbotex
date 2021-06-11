@@ -1,0 +1,35 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "الرجاء اختيار الرهن",
+        "horizontalAlignment": "Right"
+      },
+      {
+        "type": "Input.ChoiceSet",
+        "id": "PledgeeSelected",
+        "placeholder": "الكل",
+        "value": "1",
+        "choices": [
+          {
+            "title": "الكل",
+            "value": "All"
+          },
+          {
+            "$data": "{Pledgees}",
+            "title": "{ValueArabic}",
+            "value": "{Key}"
+          }
+        ]
+      }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "ارسال"
+        }
+    ]
+}

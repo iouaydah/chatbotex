@@ -1,0 +1,35 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "الرجاء اختيار الشركة",
+        "horizontalAlignment": "Right"
+      },
+      {
+        "type": "Input.ChoiceSet",
+        "id": "SymbolSelected",
+        "placeholder": "الرجاء اختيار الشركة",
+        "value": "1",
+        "choices": [
+          {
+            "title": "الكل",
+            "value": "الكل,All"
+          },
+          {
+            "$data": "{Data}",
+            "title": "{SymbolArabicName}",
+            "value": "{SymbolArabicName},{EQSymbol}"
+          }
+        ]
+      }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "ارسال"
+        }
+    ]
+}

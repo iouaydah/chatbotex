@@ -1,0 +1,65 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body":[
+        {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": " يوجد لهذه الشركة  ",
+                "size": "Medium",
+                "weight": "Bolder",
+                "wrap": true,
+                "horizontalAlignment": "Right"
+              }
+            ]
+        },
+        {
+            "$data": "{Data}",
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": " معلومات {SymbolNameArb} ",
+                "horizontalAlignment": "Right"
+              },
+                        {
+                            "type": "FactSet",
+                            "facts": [
+                                {
+                                    "title": "تاريخ اجتماع الجمعية العمومية",
+                                    "value": "{AGMDate}"
+                                },
+                                {
+                                    "title": "نسبة التتوزيع النقدي %:",
+                                    "value": "{DividendPercent}"
+                                },
+                                {
+                                    "title": "نسبة التوزيع السهمي %:",
+                                    "value": "{BonusPercent}"
+                                },
+                                {
+                                    "title": "تاريخ اخر يوم مشاركة",
+                                    "value": "{LED}"
+                                },
+                                {
+                                    "title": "تاريخ الاستحقاق",
+                                    "value": "{RDC}"
+                                },
+                                {
+                                    "title": "تاريخ الدفع",
+                                    "value": "{PaymentDate}"
+                                }
+                            ]
+                        },
+              {
+                "type": "TextBlock",
+                "text": "-----------------------------",
+                "horizontalAlignment": "Right"
+              }
+                ]
+        }
+    ]
+}

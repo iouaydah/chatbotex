@@ -1,0 +1,62 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body":[
+        {
+            "type": "Container",
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "Interims",
+                "size": "Medium",
+                "weight": "Bolder",
+                "wrap": true
+              }
+            ]
+        },
+        {
+            "$data": "{Data}",
+            "type": "Container",
+            "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Interim for {SymbolNameEng}"
+                        },
+                        {
+                            "type": "FactSet",
+                            "facts": [
+                                {
+                                    "title": "AGM Date (dd/mm/yyyy):",
+                                    "value": "{AGMDate}"
+                                },
+                                {
+                                    "title": "Cash %:",
+                                    "value": "{DividendPercent}"
+                                },
+                                {
+                                    "title": "Bonus %:",
+                                    "value": "{BonusPercent}"
+                                },
+                              {
+                                "title": "Last participate Date (dd/mm/yyyy):",
+                                "value": "{LED}"
+                              },
+                              {
+                                "title": "Record Date (dd/mm/yyyy):",
+                                "value": "{RDC}"
+                              },
+                              {
+                                "title": "Payment Date (dd/mm/yyyy):",
+                                "value": "{PaymentDate}"
+                              }
+                            ]
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "-----------------------------"
+                        }
+                ]
+        }
+    ]
+}

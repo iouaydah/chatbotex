@@ -1,0 +1,72 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "ADX Reports & Charts"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please choose the report you would like to see",
+      "wrap": true
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "[Member Activity Report](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/BrokerActivityReport_EN.rdl)",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[Active Symbols Summary](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/MarketMostActive_EN.rdl)",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[Major Shareholders as Last Trading Date](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/TopShareholders_EN.rdl)",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[Trading Volume and Value by Citizenship Report](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/TradeSummaryByCitz_EN.rdl)",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[National vs Foreign Holdings by Security](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/DailyHoldings_EN.rdl)",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[Free Float Shares](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/FreeFloat_EN.rdl)",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[Margin Report](https://publicdata.adx.ae/_layouts/15/ReportServer/RSViewerPageadxpublic.aspx?rv:RelativeReportUrl=/ADXPublic/Marginreport.rdl)",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "[More ADX Reports...](https://www.adx.ae/English/Pages/Data/ReportandCharts/default.aspx)",
+          "size": "Medium",
+          "wrap": true,
+          "horizontalAlignment": "Left"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.1",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "التقرير المالي :  ",
+        "horizontalAlignment": "Center",
+        "size": "Large",
+        "weight": "Bolder",
+        "color": "Accent"
+      },
+        {
+            "type": "FactSet",
+          "facts": [
+            {
+              "title": "بتاريخ (dd/mm/yyyy): ",
+              "value": "Not set"
+            },
+            {
+              "title": "نسبة تغير المؤشر عند الاغلاق % :",
+              "value": "Not set"
+            },
+            {
+              "title": "سعر الاغلاق - د.أ :",
+              "value": "Not set"
+            },
+            {
+              "title": "سهم التداول:",
+              "value": "Not set"
+            },
+            {
+              "title": "حجم التداول:",
+              "value": "Not set"
+            },
+            {
+              "title": "قيمة التداول:",
+              "value": "Not set"
+            },
+            {
+              "title": "عدد التداولات:",
+              "value": "Not set"
+            },
+            {
+              "title": "السعر الاعلى - د.أ :",
+              "value": "Not set"
+            },
+            {
+              "title": "السعر المنخفض - د.أ :",
+              "value": "Not set"
+            },
+            {
+              "title": "سعر الافتتاح - د.أ :",
+              "value": "Not set"
+            },
+            {
+              "title": "سعر الاغلاق السابق - د.أ :",
+              "value": "Not set"
+            },
+            {
+              "title": "  (dd/mm/yyyy) اخر تداول",
+              "value": "Not set"
+            }
+          ]
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+              {
+                "type": "Action.OpenUrl",
+                "title": "المزيد من التفاصيل",
+                "url": "Not set"
+              }
+            ]
+        }
+    ]
+}

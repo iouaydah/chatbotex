@@ -1,0 +1,164 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Please select report options",
+      "color": "Accent",
+      "size": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Company Name:",
+              "weight": "Bolder"
+            },
+            {
+              "type": "Input.ChoiceSet",
+              "id": "SymbolSelected",
+              "placeholder": "Please select Company",
+              "value": "1",
+              "choices": [
+                {
+                  "$data": "{Symbols}",
+                  "title": "{ValueEnglish}",
+                  "value": "{Key}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "style": "emphasis",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "select Type:",
+                      "weight": "Bolder"
+                    },
+                    {
+                      "type": "ActionSet",
+                      "actions": [
+                        {
+                          "type": "Action.ToggleVisibility",
+                          "title": "Bonus Shares",
+                          "targetElements": [
+                            {
+                              "elementId": "sharemessagetext",
+                              "isVisible": true
+                            },
+                            {
+                              "elementId": "messagetext",
+                              "isVisible": false
+                            },
+                            {
+                              "elementId": "StatusSelected",
+                              "isVisible": false
+                            }
+                          ],
+                          "style": "positive"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ActionSet",
+                      "actions": [
+                        {
+                          "type": "Action.ToggleVisibility",
+                          "title": "Cash Dividend",
+                          "targetElements": [
+                            {
+                              "elementId": "sharemessagetext",
+                              "isVisible": false
+                            },
+                            {
+                              "elementId": "messagetext",
+                              "isVisible": true
+                            },
+                            {
+                              "elementId": "StatusSelected",
+                              "isVisible": true
+                            }
+                          ],
+                          "style": "positive"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Cash Dividend selected, please select Status below:",
+              "id": "messagetext",
+              "wrap": true,
+              "isVisible": false
+            },
+            {
+              "type": "TextBlock",
+              "text": "Bonus Shares option selected. Submit to get the report",
+              "id": "sharemessagetext",
+              "wrap": true,
+              "isVisible": false
+            },
+            {
+              "type": "Input.ChoiceSet",
+              "id": "StatusSelected",
+              "value": "1",
+              "choices": [
+                {
+                  "$data": "{Status}",
+                  "title": "{ValueEnglish}",
+                  "value": "{Key}"
+                }
+              ],
+              "isVisible": false
+            }
+          ]
+        }
+      ],
+      "id": "StatusCol"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}

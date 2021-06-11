@@ -1,0 +1,79 @@
+﻿{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.1",
+    "body": [
+        {
+          "type": "TextBlock",
+          "text": "Trading Summary",
+          "horizontalAlignment": "Center",
+          "size": "Large",
+          "weight": "Bolder",
+          "wrap": true,
+          "color": "Accent"
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {
+                  "title": "**As of date** (dd/mm/yyyy): ",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Close Percent Change:",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Close Price (AED):",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Trading Symbol:",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Trade Volume:",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Trade Value:",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Trades Count:",
+                  "value": "Not set"
+                },
+                {
+                  "title": "High Price (AED):",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Low Price (AED):",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Open Price (AED):",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Close Price (AED):",
+                  "value": "Not set"
+                },
+                {
+                  "title": "Last Traded (dd/mm/yyyy): ",
+                  "value": "Not set"
+                }
+          ]
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "More Details",
+                    "url": "Not set"
+                }
+            ]
+        }
+    ]
+}
